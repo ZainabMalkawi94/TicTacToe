@@ -1,0 +1,52 @@
+/* Change the background color of the entire application */
+body {
+  background-color: rgb(20,189,172); /* Replace with your desired background color */
+}
+
+/* Change the font family for the entire application */
+body, button {
+  font-family: 'Arial', sans-serif; /* Replace with your desired font */
+}
+
+/* Modify the default link color */
+a {
+  color: #0074d9; /* Replace with your desired link color */
+  text-decoration: none;
+}
+
+/* Change the text color for various elements */
+h1, h2, h3 {
+  color: #333; /* Replace with your desired text color */
+}
+
+/* Customize button styles */
+/* Centered buttons with a fixed size */
+button {
+  background-color: #ff0000; /* Red background for buttons by default */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block; /* Make the buttons inline blocks */
+  text-align: center; /* Center the buttons horizontally */
+  width: 150px; /* Set a fixed width for the buttons */
+  height: 40px; /* Set a fixed height for the buttons */
+}
+
+/* Style the game board with lines between rows and columns */
+/* Style the game board with lines between rows and columns */
+.game-board {
+  width: 70%; /* Set the width to 70% of the window */
+  max-width: 400px; /* Add a maximum width for larger screens */
+  margin: 0 auto; /* Center the board horizontally */
+  position: relative;
+  top: 50%; /* Move the board down by 50% of its own height */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  background-color: #fff;
+}
+
+
+
+
+
+

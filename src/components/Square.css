@@ -1,0 +1,39 @@
+/* Add hover effect to empty squares */
+.square:empty:hover {
+    background-color: #be0000; /* Light gray on hover */
+  }
+
+  /* Style squares */
+.square {
+    width: 33.33%; /* Set the width to create three equal columns */
+    padding-bottom: 20%; /* Set the padding to create three equal rows */
+    padding-top: 20%; /* Set the padding to create three equal rows */
+    float: left; /* Float the squares to create a grid */
+    position: relative;
+    border: 10px solid rgb(13,161,146); /* Add borders between squares */
+    background-color: transparent; /* Set the default background color to transparent */
+    display: flex; /* Use flexbox to center content vertically and horizontally */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  /* Style X squares */
+  .x-square {
+    background-color: transparent; /* Set the background color to transparent for "X" */
+    color: rgb(84,84,84); /* White text for "X" */
+    font-size: 50px; /* Set the font size to be bigger */
+    font-weight: bold; /* Set the font weight to bold */
+    
+  }
+  
+  /* Style O squares */
+  .o-square {
+    background-color: transparent; /* Set the background color to transparent for "O" */
+    color: #F2EBD3; /* White text for "O" */
+    font-size: 50px; /* Set the font size to be bigger */
+    font-weight: bold; /* Set the font weight to bold */
+  }
+  
+
+
+
